@@ -1,0 +1,71 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\EXL252>echo off
+echo
+ECHO is off.
+echo on
+
+C:\Users\EXL252>whereis
+'whereis' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\EXL252>cd desk
+The system cannot find the path specified.
+
+C:\Users\EXL252>cd Desktop
+
+C:\Users\EXL252\Desktop>whereis
+ECHO is off.
+
+C:\Users\EXL252\Desktop>echo
+ECHO is on.
+
+C:\Users\EXL252\Desktop>echo off
+whereis
+ECHO is off.
+echo
+ECHO is off.
+echo on
+
+C:\Users\EXL252\Desktop>echo off
+whereis
+ECHO is on.
+echo
+ECHO is off.
+echo on
+
+C:\Users\EXL252\Desktop>whereis
+ECHO is off.
+
+C:\Users\EXL252\Desktop>whereis
+The system cannot find the file specified.
+
+C:\Users\EXL252\Desktop>whereis
+
+C:\Users\EXL252\Desktop>if "" == "" (echo Usage : whereis  name Example : wherei
+s notepad.exe  0<executable 1>. )  else (echo   )
+The system cannot find the file specified.
+
+C:\Users\EXL252\Desktop>whereis
+
+C:\Users\EXL252\Desktop>if "" == "" (echo Usage : whereis  name Example : wherei
+s notepad.exe  0<eexecutable 1>. )  else (echo   )
+The system cannot find the file specified.
+
+C:\Users\EXL252\Desktop>whereis
+
+C:\Users\EXL252\Desktop>if "" == "" (echo Usage : whereis <executable name>. Exa
+mple : whereis notepad.exe  )  else (echo   )
+Usage : whereis <executable name>. Example : whereis notepad.exe
+
+C:\Users\EXL252\Desktop>whereis
+Usage : whereis <executable name>. Example : whereis notepad.exe
+
+C:\Users\EXL252\Desktop>whereis notepad.Exe
+C:\Windows\System32\
+
+C:\Users\EXL252\Desktop>whereis perl.exe
+C:\Strawberry\perl\bin\
+
+C:\Users\EXL252\Desktop>
