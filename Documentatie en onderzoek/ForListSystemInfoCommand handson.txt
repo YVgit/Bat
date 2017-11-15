@@ -1,0 +1,1180 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\UUUUUU>cd dev
+
+C:\Users\UUUUUU\dev>cd "bat development"
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat
+ERROR : Missing parameter filename.
+
+The syntax of this command is:
+doforlist [filename] [command-parameters]
+    filename                            A newline separated list.
+    command-parameters          Specifies parameters or switches for the specified command. Items are available as %listitem
+% (this environment variable can be accessed by the command as well) or %1.
+
+Examples :
+doforlist.bat machinenames.csv "ping -n 1 ^%1"
+doforlist.bat machinenames.csv "ping -n 1 ^%listitem^%"
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat machinenames.csv "ping -n 1 ^%1"
+Opening list "machinenames.csv".
+Registered command "ping -n 1 ^%1".
+Ping request could not find host BCPFADAPWV001. Please check the name and try again.
+
+Pinging BFINATRIUAP011V.msnet.business.be [10.55.11.132] with 32 bytes of data:
+Reply from 10.55.11.132: bytes=32 time=3ms TTL=126
+
+Ping statistics for 10.55.11.132:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 3ms, Average = 3ms
+
+Pinging BTPATRIURF001.msnet.business.be [10.2.87.221] with 32 bytes of data:
+Reply from 10.2.87.221: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.2.87.221:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging BTPBLOCKAP003V.msnet.business.be [10.55.11.111] with 32 bytes of data:
+Reply from 10.55.11.111: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.55.11.111:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging BTPBLOCKRF001.msnet.business.be [10.2.87.222] with 32 bytes of data:
+Reply from 10.2.87.222: bytes=32 time=3ms TTL=126
+
+Ping statistics for 10.2.87.222:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 3ms, Average = 3ms
+Ping request could not find host DMZEATRIUWF103. Please check the name and try again.
+Ping request could not find host DMZEATRIUWW003. Please check the name and try again.
+Ping request could not find host DMZEBLOCKWF103. Please check the name and try again.
+Ping request could not find host DMZEBLOCKWW002. Please check the name and try again.
+
+Pinging DMZIATRIUWF001.msnet.business.be [10.2.47.3] with 32 bytes of data:
+Reply from 10.2.47.3: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.2.47.3:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging DMZIATRIUWF003.msnet.business.be [10.2.47.90] with 32 bytes of data:
+Reply from 10.2.47.90: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.2.47.90:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging DMZIATRIUWF101.msnet.business.be [10.35.19.10] with 32 bytes of data:
+Reply from 10.35.19.10: bytes=32 time=1ms TTL=120
+
+Ping statistics for 10.35.19.10:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging DMZIATRIUWF203.msnet.business.be [10.2.47.11] with 32 bytes of data:
+Reply from 10.2.47.11: bytes=32 time=3ms TTL=126
+
+Ping statistics for 10.2.47.11:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 3ms, Average = 3ms
+
+Pinging DMZIBLOCKWF001.msnet.business.be [10.2.47.5] with 32 bytes of data:
+Reply from 10.2.47.5: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.2.47.5:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging DMZIBLOCKWF003.msnet.business.be [10.2.47.89] with 32 bytes of data:
+Reply from 10.2.47.89: bytes=32 time=3ms TTL=124
+
+Ping statistics for 10.2.47.89:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 3ms, Average = 3ms
+
+Pinging DMZIBLOCKWF101.msnet.business.be [10.35.19.9] with 32 bytes of data:
+Reply from 10.35.19.9: bytes=32 time=1ms TTL=120
+
+Ping statistics for 10.35.19.9:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging DMZIBLOCKWF203.msnet.business.be [10.2.47.14] with 32 bytes of data:
+Reply from 10.2.47.14: bytes=32 time=2ms TTL=126
+
+Ping statistics for 10.2.47.14:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HCASAIAPWV002.msnet.business.be [10.25.21.59] with 32 bytes of data:
+Reply from 10.25.21.59: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.21.59:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HCASATRIUAP002V.msnet.business.be [10.25.11.65] with 32 bytes of data:
+Reply from 10.25.11.65: bytes=32 time=2ms TTL=124
+
+Ping statistics for 10.25.11.65:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HCASATRIUAP003V.msnet.business.be [10.25.11.103] with 32 bytes of data:
+Reply from 10.25.11.103: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.11.103:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HCASATRIUAP004V.msnet.business.be [10.25.11.104] with 32 bytes of data:
+Reply from 10.25.11.104: bytes=32 time=2ms TTL=124
+
+Ping statistics for 10.25.11.104:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HDIRATRIUAP002.msnet.business.be [10.25.10.25] with 32 bytes of data:
+Reply from 10.25.10.25: bytes=32 time=2ms TTL=126
+
+Ping statistics for 10.25.10.25:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HDIRBLOCKAP002V.msnet.business.be [10.25.11.53] with 32 bytes of data:
+Reply from 10.25.11.53: bytes=32 time=2ms TTL=124
+
+Ping statistics for 10.25.11.53:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HFINBLOCKAP003V.msnet.business.be [10.25.11.129] with 32 bytes of data:
+Reply from 10.25.11.129: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.11.129:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HHRMBLOCKAP002V.msnet.business.be [10.25.11.199] with 32 bytes of data:
+Reply from 10.25.11.199: bytes=32 time=2ms TTL=124
+
+Ping statistics for 10.25.11.199:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HICTAIAPWH001.msnet.business.be [10.15.10.150] with 32 bytes of data:
+Reply from 10.15.10.150: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.10.150:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTATRIUDB007.msnet.business.be [10.15.10.66] with 32 bytes of data:
+Reply from 10.15.10.66: bytes=32 time=3ms TTL=124
+
+Ping statistics for 10.15.10.66:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 3ms, Average = 3ms
+
+Pinging HICTATRIUDB008.msnet.business.be [10.15.10.67] with 32 bytes of data:
+Reply from 10.15.10.67: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.10.67:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTATRIUFP004.msnet.business.be [10.55.10.32] with 32 bytes of data:
+Reply from 10.55.10.32: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.55.10.32:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTATRIUWF900V.msnet.business.be [10.15.11.2] with 32 bytes of data:
+Reply from 10.15.11.2: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.2:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBIAPWH001.msnet.business.be [10.15.10.149] with 32 bytes of data:
+Reply from 10.15.10.149: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.10.149:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBIAPWV004.msnet.business.be [10.2.5.191] with 32 bytes of data:
+Reply from 10.2.5.191: bytes=32 time=1ms TTL=120
+
+Ping statistics for 10.2.5.191:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBLOCKAP051V.msnet.business.be [10.15.11.47] with 32 bytes of data:
+Reply from 10.15.11.47: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.47:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBLOCKDB006.msnet.business.be [10.15.10.184] with 32 bytes of data:
+Reply from 10.15.10.184: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.10.184:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBLOCKDB007.msnet.business.be [10.15.10.64] with 32 bytes of data:
+Reply from 10.15.10.64: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.10.64:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBLOCKDB008.msnet.business.be [10.15.10.65] with 32 bytes of data:
+Reply from 10.15.10.65: bytes=32 time=2ms TTL=124
+
+Ping statistics for 10.15.10.65:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HICTBLOCKFP004.msnet.business.be [10.55.10.33] with 32 bytes of data:
+Reply from 10.55.10.33: bytes=32 time=2ms TTL=126
+
+Ping statistics for 10.55.10.33:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HICTBLOCKTS001V.msnet.business.be [10.15.11.116] with 32 bytes of data:
+Reply from 10.15.11.116: bytes=32 time=2ms TTL=124
+
+Ping statistics for 10.15.11.116:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging HICTBLOCKWF900V.msnet.business.be [10.15.11.3] with 32 bytes of data:
+Reply from 10.15.11.3: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.3:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBLOCKWW002V.msnet.business.be [10.25.21.20] with 32 bytes of data:
+Reply from 10.25.21.20: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.21.20:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HICTBLOCKWW003V.msnet.business.be [10.25.21.21] with 32 bytes of data:
+Reply from 10.25.21.21: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.21.21:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HPATATRIUWW001V.msnet.business.be [10.25.21.19] with 32 bytes of data:
+Reply from 10.25.21.19: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.21.19:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+Ping request could not find host HSTAADAPWV001. Please check the name and try again.
+
+Pinging HSTAAIAPWV001.msnet.business.be [10.25.21.127] with 32 bytes of data:
+Reply from 10.25.21.127: bytes=32 time=4ms TTL=124
+
+Ping statistics for 10.25.21.127:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 4ms, Average = 4ms
+
+Pinging HSTAATRIUAP001V.msnet.business.be [10.25.11.137] with 32 bytes of data:
+Reply from 10.25.11.137: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.25.11.137:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging HSTABLOCKAP001.msnet.business.be [10.25.10.23] with 32 bytes of data:
+Reply from 10.25.10.23: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.25.10.23:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging IBIS-SQL-DV-02.msnet.business.be [10.2.25.30] with 32 bytes of data:
+Reply from 10.2.25.30: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.2.25.30:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging IDIRBLOCKAP005.msnet.business.be [10.35.10.45] with 32 bytes of data:
+Reply from 10.35.10.45: bytes=32 time=1ms TTL=120
+
+Ping statistics for 10.35.10.45:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging IICTCIAPWV152.msnet.business.be [10.248.11.91] with 32 bytes of data:
+Reply from 10.248.11.91: bytes=32 time=2ms TTL=123
+
+Ping statistics for 10.248.11.91:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 2ms, Average = 2ms
+
+Pinging INF01ATRIUAP06.msnet.business.be [10.15.11.59] with 32 bytes of data:
+Reply from 10.15.11.59: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.59:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUAP07.msnet.business.be [10.15.11.103] with 32 bytes of data:
+Reply from 10.15.11.103: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.103:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUAP18.msnet.business.be [10.15.11.104] with 32 bytes of data:
+Reply from 10.15.11.104: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.104:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUAP19.msnet.business.be [10.55.11.81] with 32 bytes of data:
+Reply from 10.55.11.81: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.55.11.81:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUAP22.msnet.business.be [10.15.11.35] with 32 bytes of data:
+Reply from 10.15.11.35: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.15.11.35:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUDB03.msnet.business.be [10.2.25.47] with 32 bytes of data:
+Reply from 10.2.25.47: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.2.25.47:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUDB04.msnet.business.be [10.248.11.34] with 32 bytes of data:
+Reply from 10.248.11.34: bytes=32 time=9ms TTL=123
+
+Ping statistics for 10.248.11.34:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 9ms, Average = 9ms
+
+Pinging INF01ATRIUDB99.msnet.business.be [10.2.25.7] with 32 bytes of data:
+Reply from 10.2.25.7: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.2.25.7:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01ATRIUWF02.msnet.business.be [10.2.47.4] with 32 bytes of data:
+Reply from 10.2.47.4: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.2.47.4:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging INF01BLOCKWF02.msnet.business.be [10.2.47.6] with 32 bytes of data:
+Reply from 10.2.47.6: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.2.47.6:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging NAT01BLOCKAP03.msnet.business.be [10.55.11.144] with 32 bytes of data:
+Reply from 10.55.11.144: bytes=32 time=1ms TTL=126
+
+Ping statistics for 10.55.11.144:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+Pinging SYNTATRIUAP003.msnet.business.be [10.2.25.80] with 32 bytes of data:
+Reply from 10.2.25.80: bytes=32 time=1ms TTL=124
+
+Ping statistics for 10.2.25.80:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+C:\Users\UUUUUU\dev\bat development>systeminfo /?
+
+SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]
+
+Description:
+    This tool displays operating system configuration information for
+    a local or remote machine, including service pack levels.
+
+Parameter List:
+    /S      system           Specifies the remote system to connect to.
+
+    /U      [uu\]user    Specifies the user context under which
+                             the command should execute.
+
+    /P      [password]       Specifies the password for the given
+                             user context. Prompts for input if omitted.
+
+    /FO     format           Specifies the format in which the output
+                             is to be displayed.
+                             Valid values: "TABLE", "LIST", "CSV".
+
+    /NH                      Specifies that the "Column Header" should
+                             not be displayed in the output.
+                             Valid only for "TABLE" and "CSV" formats.
+
+    /?                       Displays this help message.
+
+Examples:
+    SYSTEMINFO
+    SYSTEMINFO /?
+    SYSTEMINFO /S system
+    SYSTEMINFO /S system /U user
+    SYSTEMINFO /S system /U uu\user /P password /FO TABLE
+    SYSTEMINFO /S system /FO LIST
+    SYSTEMINFO /S system /FO CSV /NH
+
+C:\Users\UUUUUU\dev\bat development>systeminfo /S SYNTATRIUAP003 /U msnet\uu /P ww
+
+Host Name:                 SYNTATRIUAP003
+OS Name:                   Microsoft(R) Windows(R) Server 2003, Standard Edition
+OS Version:                5.2.3790 Service Pack 2 Build 3790
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Member Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          B-HOLDING
+Registered Organization:   SYNTIGO
+Product ID:                69712-640-0739493-45942
+Original Install Date:     22/11/2007, 15:38:49
+System Boot Time:          19/06/2017, 10:42:20
+System Manufacturer:       Compaq
+System Model:              ProLiant DL380 G2
+System Type:               X86-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: x86 Family 6 Model 11 Stepping 1 GenuineIntel ~1390 Mhz
+                           [02]: x86 Family 6 Model 11 Stepping 1 GenuineIntel ~1390 Mhz
+BIOS Version:              Compaq P24, 1/05/2004
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              fr-be;French (Belgium)
+Time Zone:                 (GMT+01:00) Brussels, Copenhagen, Madrid, Paris
+Total Physical Memory:     1.280 MB
+Available Physical Memory: 741 MB
+Virtual Memory: Max Size:  3.062 MB
+Virtual Memory: Available: 2.407 MB
+Virtual Memory: In Use:    655 MB
+Page File Location(s):     D:\pagefile.sys
+uu:                    msnet.business.be
+Logon Server:              \\INF01BLOCKDC01
+Hotfix(s):                 465 Hotfix(s) Installed.
+                           [01]: File 1
+                           [02]: File 1
+                           [03]: File 1
+                           [04]: File 1
+                           [05]: File 1
+                           [06]: File 1
+                           [07]: File 1
+                           [08]: File 1
+                           [09]: File 1
+                           [10]: File 1
+                           [11]: File 1
+                           [12]: File 1
+                           [13]: File 1
+                           [14]: File 1
+                           [15]: File 1
+                           [16]: File 1
+                           [17]: File 1
+                           [18]: File 1
+                           [19]: File 1
+                           [20]: File 1
+                           [21]: File 1
+                           [22]: File 1
+                           [23]: File 1
+                           [24]: File 1
+                           [25]: File 1
+                           [26]: File 1
+                           [27]: File 1
+                           [28]: File 1
+                           [29]: File 1
+                           [30]: File 1
+                           [31]: File 1
+                           [32]: File 1
+                           [33]: File 1
+                           [34]: File 1
+                           [35]: File 1
+                           [36]: File 1
+                           [37]: File 1
+                           [38]: File 1
+                           [39]: File 1
+                           [40]: File 1
+                           [41]: File 1
+                           [42]: File 1
+                           [43]: File 1
+                           [44]: File 1
+                           [45]: File 1
+                           [46]: File 1
+                           [47]: File 1
+                           [48]: File 1
+                           [49]: File 1
+                           [50]: File 1
+                           [51]: File 1
+                           [52]: File 1
+                           [53]: File 1
+                           [54]: File 1
+                           [55]: File 1
+                           [56]: File 1
+                           [57]: File 1
+                           [58]: File 1
+                           [59]: File 1
+                           [60]: File 1
+                           [61]: File 1
+                           [62]: File 1
+                           [63]: File 1
+                           [64]: File 1
+                           [65]: File 1
+                           [66]: File 1
+                           [67]: File 1
+                           [68]: File 1
+                           [69]: File 1
+                           [70]: File 1
+                           [71]: File 1
+                           [72]: File 1
+                           [73]: File 1
+                           [74]: File 1
+                           [75]: File 1
+                           [76]: File 1
+                           [77]: File 1
+                           [78]: File 1
+                           [79]: File 1
+                           [80]: File 1
+                           [81]: File 1
+                           [82]: File 1
+                           [83]: File 1
+                           [84]: File 1
+                           [85]: File 1
+                           [86]: File 1
+                           [87]: File 1
+                           [88]: File 1
+                           [89]: File 1
+                           [90]: File 1
+                           [91]: File 1
+                           [92]: File 1
+                           [93]: File 1
+                           [94]: File 1
+                           [95]: File 1
+                           [96]: File 1
+                           [97]: File 1
+                           [98]: File 1
+                           [99]: File 1
+                           [100]: File 1
+                           [101]: File 1
+                           [102]: File 1
+                           [103]: File 1
+                           [104]: File 1
+                           [105]: File 1
+                           [106]: File 1
+                           [107]: File 1
+                           [108]: File 1
+                           [109]: File 1
+                           [110]: File 1
+                           [111]: File 1
+                           [112]: File 1
+                           [113]: File 1
+                           [114]: File 1
+                           [115]: File 1
+                           [116]: File 1
+                           [117]: File 1
+                           [118]: File 1
+                           [119]: File 1
+                           [120]: File 1
+                           [121]: File 1
+                           [122]: File 1
+                           [123]: File 1
+                           [124]: File 1
+                           [125]: File 1
+                           [126]: File 1
+                           [127]: File 1
+                           [128]: File 1
+                           [129]: File 1
+                           [130]: File 1
+                           [131]: File 1
+                           [132]: File 1
+                           [133]: File 1
+                           [134]: File 1
+                           [135]: File 1
+                           [136]: File 1
+                           [137]: File 1
+                           [138]: File 1
+                           [139]: File 1
+                           [140]: File 1
+                           [141]: File 1
+                           [142]: File 1
+                           [143]: File 1
+                           [144]: File 1
+                           [145]: File 1
+                           [146]: File 1
+                           [147]: File 1
+                           [148]: File 1
+                           [149]: File 1
+                           [150]: File 1
+                           [151]: File 1
+                           [152]: File 1
+                           [153]: File 1
+                           [154]: File 1
+                           [155]: File 1
+                           [156]: File 1
+                           [157]: File 1
+                           [158]: File 1
+                           [159]: File 1
+                           [160]: File 1
+                           [161]: File 1
+                           [162]: File 1
+                           [163]: File 1
+                           [164]: File 1
+                           [165]: File 1
+                           [166]: File 1
+                           [167]: File 1
+                           [168]: File 1
+                           [169]: File 1
+                           [170]: File 1
+                           [171]: File 1
+                           [172]: File 1
+                           [173]: File 1
+                           [174]: File 1
+                           [175]: File 1
+                           [176]: File 1
+                           [177]: File 1
+                           [178]: File 1
+                           [179]: File 1
+                           [180]: File 1
+                           [181]: File 1
+                           [182]: File 1
+                           [183]: File 1
+                           [184]: File 1
+                           [185]: File 1
+                           [186]: File 1
+                           [187]: File 1
+                           [188]: File 1
+                           [189]: File 1
+                           [190]: File 1
+                           [191]: File 1
+                           [192]: File 1
+                           [193]: File 1
+                           [194]: File 1
+                           [195]: File 1
+                           [196]: File 1
+                           [197]: File 1
+                           [198]: File 1
+                           [199]: File 1
+                           [200]: File 1
+                           [201]: File 1
+                           [202]: File 1
+                           [203]: File 1
+                           [204]: File 1
+                           [205]: File 1
+                           [206]: File 1
+                           [207]: File 1
+                           [208]: File 1
+                           [209]: File 1
+                           [210]: File 1
+                           [211]: File 1
+                           [212]: File 1
+                           [213]: File 1
+                           [214]: File 1
+                           [215]: File 1
+                           [216]: File 1
+                           [217]: File 1
+                           [218]: File 1
+                           [219]: File 1
+                           [220]: File 1
+                           [221]: File 1
+                           [222]: File 1
+                           [223]: File 1
+                           [224]: File 1
+                           [225]: File 1
+                           [226]: Q147222
+                           [227]: KB2742604 - QFE
+                           [228]: KB2894845 - QFE
+                           [229]: KB2972207 - QFE
+                           [230]: KB2978114 - QFE
+                           [231]: KB3023211 - QFE
+                           [232]: KB3037572 - QFE
+                           [233]: KB933854 - QFE
+                           [234]: KB953298 - QFE
+                           [235]: KB979907 - QFE
+                           [236]: SP1 - SP
+                           [237]: KB968930 - Update
+                           [238]: Q973688
+                           [239]: KB975558_WM8
+                           [240]: KB925398_WMP64
+                           [241]: KB2510531-IE8 - Update
+                           [242]: KB3038314-IE8 - Update
+                           [243]: KB3087038-IE8 - Update
+                           [244]: KB2564958 - Update
+                           [245]: KB971513 - Update
+                           [246]: KB914961 - Service Pack
+                           [247]: KB926139-v2
+                           [248]: KB926141
+                           [249]: KB2115168 - Update
+                           [250]: KB2229593 - Update
+                           [251]: KB2345886 - Update
+                           [252]: KB2347290 - Update
+                           [253]: KB2378111 - Update
+                           [254]: KB2387149 - Update
+                           [255]: KB2419635 - Update
+                           [256]: KB2423089 - Update
+                           [257]: KB2443105 - Update
+                           [258]: KB2478960 - Update
+                           [259]: KB2481109 - Update
+                           [260]: KB2483185 - Update
+                           [261]: KB2485663 - Update
+                           [262]: KB2506212 - Update
+                           [263]: KB2507938 - Update
+                           [264]: KB2508429 - Update
+                           [265]: KB2509553 - Update
+                           [266]: KB2535512 - Update
+                           [267]: KB2536276-v2 - Updat
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: HP NC3163 Fast Ethernet NIC
+                                 Connection Name: Local Area Connection
+                                 Status:          Media disconnected
+                           [02]: HP NC3163 Fast Ethernet NIC
+                                 Connection Name: Local Area Connection 2
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.2.25.80
+
+C:\Users\UUUUUU\dev\bat development>systeminfo /?
+
+SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]
+
+Description:
+    This tool displays operating system configuration information for
+    a local or remote machine, including service pack levels.
+
+Parameter List:
+    /S      system           Specifies the remote system to connect to.
+
+    /U      [uu\]user    Specifies the user context under which
+                             the command should execute.
+
+    /P      [password]       Specifies the password for the given
+                             user context. Prompts for input if omitted.
+
+    /FO     format           Specifies the format in which the output
+                             is to be displayed.
+                             Valid values: "TABLE", "LIST", "CSV".
+
+    /NH                      Specifies that the "Column Header" should
+                             not be displayed in the output.
+                             Valid only for "TABLE" and "CSV" formats.
+
+    /?                       Displays this help message.
+
+Examples:
+    SYSTEMINFO
+    SYSTEMINFO /?
+    SYSTEMINFO /S system
+    SYSTEMINFO /S system /U user
+    SYSTEMINFO /S system /U uu\user /P password /FO TABLE
+    SYSTEMINFO /S system /FO LIST
+    SYSTEMINFO /S system /FO CSV /NH
+
+C:\Users\UUUUUU\dev\bat development>systeminfo /S SYNTATRIUAP003 /U msnet\uu /P ww /FO CSV /NH
+"SYNTATRIUAP003","Microsoft(R) Windows(R) Server 2003, Standard Edition","5.2.3790 Service Pack 2 Build 3790","Microsoft Cor
+poration","Member Server","Multiprocessor Free","B-HOLDING","SYNTIGO","69712-640-0739493-45942","22/11/2007, 15:38:49","19/0
+6/2017, 10:42:20","Compaq","ProLiant DL380 G2","X86-based PC","2 Processor(s) Installed.,[01]: x86 Family 6 Model 11 Steppin
+g 1 GenuineIntel ~1390 Mhz,[02]: x86 Family 6 Model 11 Stepping 1 GenuineIntel ~1390 Mhz","Compaq P24, 1/05/2004","C:\WINDOW
+S","C:\WINDOWS\system32","\Device\HarddiskVolume1","en-us;English (United States)","fr-be;French (Belgium)","(GMT+01:00) Bru
+ssels, Copenhagen, Madrid, Paris","1.280 MB","740 MB","3.062 MB","2.407 MB","655 MB","D:\pagefile.sys","msnet.business.be","\\I
+NF01BLOCKDC01","465 Hotfix(s) Installed.,[01]: File 1,[02]: File 1,[03]: File 1,[04]: File 1,[05]: File 1,[06]: File 1,[07]:
+ File 1,[08]: File 1,[09]: File 1,[10]: File 1,[11]: File 1,[12]: File 1,[13]: File 1,[14]: File 1,[15]: File 1,[16]: File 1
+,[17]: File 1,[18]: File 1,[19]: File 1,[20]: File 1,[21]: File 1,[22]: File 1,[23]: File 1,[24]: File 1,[25]: File 1,[26]:
+File 1,[27]: File 1,[28]: File 1,[29]: File 1,[30]: File 1,[31]: File 1,[32]: File 1,[33]: File 1,[34]: File 1,[35]: File 1,
+[36]: File 1,[37]: File 1,[38]: File 1,[39]: File 1,[40]: File 1,[41]: File 1,[42]: File 1,[43]: File 1,[44]: File 1,[45]: F
+ile 1,[46]: File 1,[47]: File 1,[48]: File 1,[49]: File 1,[50]: File 1,[51]: File 1,[52]: File 1,[53]: File 1,[54]: File 1,[
+55]: File 1,[56]: File 1,[57]: File 1,[58]: File 1,[59]: File 1,[60]: File 1,[61]: File 1,[62]: File 1,[63]: File 1,[64]: Fi
+le 1,[65]: File 1,[66]: File 1,[67]: File 1,[68]: File 1,[69]: File 1,[70]: File 1,[71]: File 1,[72]: File 1,[73]: File 1,[7
+4]: File 1,[75]: File 1,[76]: File 1,[77]: File 1,[78]: File 1,[79]: File 1,[80]: File 1,[81]: File 1,[82]: File 1,[83]: Fil
+e 1,[84]: File 1,[85]: File 1,[86]: File 1,[87]: File 1,[88]: File 1,[89]: File 1,[90]: File 1,[91]: File 1,[92]: File 1,[93
+]: File 1,[94]: File 1,[95]: File 1,[96]: File 1,[97]: File 1,[98]: File 1,[99]: File 1,[100]: File 1,[101]: File 1,[102]: F
+ile 1,[103]: File 1,[104]: File 1,[105]: File 1,[106]: File 1,[107]: File 1,[108]: File 1,[109]: File 1,[110]: File 1,[111]:
+ File 1,[112]: File 1,[113]: File 1,[114]: File 1,[115]: File 1,[116]: File 1,[117]: File 1,[118]: File 1,[119]: File 1,[120
+]: File 1,[121]: File 1,[122]: File 1,[123]: File 1,[124]: File 1,[125]: File 1,[126]: File 1,[127]: File 1,[128]: File 1,[1
+29]: File 1,[130]: File 1,[131]: File 1,[132]: File 1,[133]: File 1,[134]: File 1,[135]: File 1,[136]: File 1,[137]: File 1,
+[138]: File 1,[139]: File 1,[140]: File 1,[141]: File 1,[142]: File 1,[143]: File 1,[144]: File 1,[145]: File 1,[146]: File
+1,[147]: File 1,[148]: File 1,[149]: File 1,[150]: File 1,[151]: File 1,[152]: File 1,[153]: File 1,[154]: File 1,[155]: Fil
+e 1,[156]: File 1,[157]: File 1,[158]: File 1,[159]: File 1,[160]: File 1,[161]: File 1,[162]: File 1,[163]: File 1,[164]: F
+ile 1,[165]: File 1,[166]: File 1,[167]: File 1,[168]: File 1,[169]: File 1,[170]: File 1,[171]: File 1,[172]: File 1,[173]:
+ File 1,[174]: File 1,[175]: File 1,[176]: File 1,[177]: File 1,[178]: File 1,[179]: File 1,[180]: File 1,[181]: File 1,[182
+]: File 1,[183]: File 1,[184]: File 1,[185]: File 1,[186]: File 1,[187]: File 1,[188]: File 1,[189]: File 1,[190]: File 1,[1
+91]: File 1,[192]: File 1,[193]: File 1,[194]: File 1,[195]: File 1,[196]: File 1,[197]: File 1,[198]: File 1,[199]: File 1,
+[200]: File 1,[201]: File 1,[202]: File 1,[203]: File 1,[204]: File 1,[205]: File 1,[206]: File 1,[207]: File 1,[208]: File
+1,[209]: File 1,[210]: File 1,[211]: File 1,[212]: File 1,[213]: File 1,[214]: File 1,[215]: File 1,[216]: File 1,[217]: Fil
+e 1,[218]: File 1,[219]: File 1,[220]: File 1,[221]: File 1,[222]: File 1,[223]: File 1,[224]: File 1,[225]: File 1,[226]: Q
+147222,[227]: KB2742604 - QFE,[228]: KB2894845 - QFE,[229]: KB2972207 - QFE,[230]: KB2978114 - QFE,[231]: KB3023211 - QFE,[2
+32]: KB3037572 - QFE,[233]: KB933854 - QFE,[234]: KB953298 - QFE,[235]: KB979907 - QFE,[236]: SP1 - SP,[237]: KB968930 - Upd
+ate,[238]: Q973688,[239]: KB975558_WM8,[240]: KB925398_WMP64,[241]: KB2510531-IE8 - Update,[242]: KB3038314-IE8 - Update,[24
+3]: KB3087038-IE8 - Update,[244]: KB2564958 - Update,[245]: KB971513 - Update,[246]: KB914961 - Service Pack,[247]: KB926139
+-v2,[248]: KB926141,[249]: KB2115168 - Update,[250]: KB2229593 - Update,[251]: KB2345886 - Update,[252]: KB2347290 - Update,
+[253]: KB2378111 - Update,[254]: KB2387149 - Update,[255]: KB2419635 - Update,[256]: KB2423089 - Update,[257]: KB2443105 - U
+pdate,[258]: KB2478960 - Update,[259]: KB2481109 - Update,[260]: KB2483185 - Update,[261]: KB2485663 - Update,[262]: KB25062
+12 - Update,[263]: KB2507938 - Update,[264]: KB2508429 - Update,[265]: KB2509553 - Update,[266]: KB2535512 - Update,[267]: K
+B2536276-v2 - Updat","2 NIC(s) Installed.,[01]: HP NC3163 Fast Ethernet NIC,      Connection Name: Local Area Connection,
+   Status:          Media disconnected,[02]: HP NC3163 Fast Ethernet NIC,      Connection Name: Local Area Connection 2,
+  DHCP Enabled:    No,      IP address(es),      [01]: 10.2.25.80"
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat machinenames.csv testfor.bat
+Opening list "machinenames.csv".
+Registered command "testfor.bat".
+test BCPFADAPWV001
+test BFINATRIUAP011V
+test BTPATRIURF001
+test BTPBLOCKAP003V
+test BTPBLOCKRF001
+test DMZEATRIUWF103
+test DMZEATRIUWW003
+test DMZEBLOCKWF103
+test DMZEBLOCKWW002
+test DMZIATRIUWF001
+test DMZIATRIUWF003
+test DMZIATRIUWF101
+test DMZIATRIUWF203
+test DMZIBLOCKWF001
+test DMZIBLOCKWF003
+test DMZIBLOCKWF101
+test DMZIBLOCKWF203
+test HCASAIAPWV002
+test HCASATRIUAP002V
+test HCASATRIUAP003V
+test HCASATRIUAP004V
+test HDIRATRIUAP002
+test HDIRBLOCKAP002V
+test HFINBLOCKAP003V
+test HHRMBLOCKAP002V
+test HICTAIAPWH001
+test HICTATRIUDB007
+test HICTATRIUDB008
+test HICTATRIUFP004
+test HICTATRIUWF900V
+test HICTBIAPWH001
+test HICTBIAPWV004
+test HICTBLOCKAP051V
+test HICTBLOCKDB006
+test HICTBLOCKDB007
+test HICTBLOCKDB008
+test HICTBLOCKFP004
+test HICTBLOCKTS001V
+test HICTBLOCKWF900V
+test HICTBLOCKWW002V
+test HICTBLOCKWW003V
+test HPATATRIUWW001V
+test HSTAADAPWV001
+test HSTAAIAPWV001
+test HSTAATRIUAP001V
+test HSTABLOCKAP001
+test IBIS-SQL-DV-02
+test IDIRBLOCKAP005
+test IICTCIAPWV152
+test INF01ATRIUAP06
+test INF01ATRIUAP07
+test INF01ATRIUAP18
+test INF01ATRIUAP19
+test INF01ATRIUAP22
+test INF01ATRIUDB03
+test INF01ATRIUDB04
+test INF01ATRIUDB99
+test INF01ATRIUWF02
+test INF01BLOCKWF02
+test NAT01BLOCKAP03
+test SYNTATRIUAP003
+
+C:\Users\UUUUUU\dev\bat development>prep
+Klaar om te beginnen!
+
+Omgevingsvariabelen : gebruiker, wachtwoord, psexeccredentials en path aangepast.
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat shortlist.csv systeminfo.for.bat
+Opening list "shortlist.csv".
+Registered command "systeminfo.for.bat".
+Start BCPFADAPWV001 :
+ERROR: The RPC server is unavailable.
+Stop BCPFADAPWV001.
+Start SYNTATRIUAP003 :
+Stop SYNTATRIUAP003.
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat shortlist.csv systeminfo.for.bat
+Opening list "shortlist.csv".
+Registered command "systeminfo.for.bat".
+Start BCPFADAPWV001 :
+ERROR: The RPC server is unavailable.
+Stop BCPFADAPWV001.
+Start SYNTATRIUAP003 :
+SYNTATRIUAP003;
+Stop SYNTATRIUAP003.
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat shortlist.csv systeminfo.for.bat
+Opening list "shortlist.csv".
+Registered command "systeminfo.for.bat".
+Start BCPFADAPWV001 :
+ERROR: The RPC server is unavailable.
+Stop BCPFADAPWV001.
+Start SYNTATRIUAP003 :
+Stop SYNTATRIUAP003.
+
+C:\Users\UUUUUU\dev\bat development>doforlist.bat machinenames.csv systeminfo.for.bat
+Opening list "machinenames.csv".
+Registered command "systeminfo.for.bat".
+Start BCPFADAPWV001 :
+ERROR: The RPC server is unavailable.
+Stop BCPFADAPWV001.
+Start BFINATRIUAP011V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop BFINATRIUAP011V.
+Start BTPATRIURF001 :
+Stop BTPATRIURF001.
+Start BTPBLOCKAP003V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop BTPBLOCKAP003V.
+Start BTPBLOCKRF001 :
+Stop BTPBLOCKRF001.
+Start DMZEATRIUWF103 :
+ERROR: The RPC server is unavailable.
+Stop DMZEATRIUWF103.
+Start DMZEATRIUWW003 :
+ERROR: The RPC server is unavailable.
+Stop DMZEATRIUWW003.
+Start DMZEBLOCKWF103 :
+ERROR: The RPC server is unavailable.
+Stop DMZEBLOCKWF103.
+Start DMZEBLOCKWW002 :
+ERROR: The RPC server is unavailable.
+Stop DMZEBLOCKWW002.
+Start DMZIATRIUWF001 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIATRIUWF001.
+Start DMZIATRIUWF003 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIATRIUWF003.
+Start DMZIATRIUWF101 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIATRIUWF101.
+Start DMZIATRIUWF203 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIATRIUWF203.
+Start DMZIBLOCKWF001 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIBLOCKWF001.
+Start DMZIBLOCKWF003 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIBLOCKWF003.
+Start DMZIBLOCKWF101 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIBLOCKWF101.
+Start DMZIBLOCKWF203 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop DMZIBLOCKWF203.
+Start HCASAIAPWV002 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HCASAIAPWV002.
+Start HCASATRIUAP002V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HCASATRIUAP002V.
+Start HCASATRIUAP003V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HCASATRIUAP003V.
+Start HCASATRIUAP004V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HCASATRIUAP004V.
+Start HDIRATRIUAP002 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HDIRATRIUAP002.
+Start HDIRBLOCKAP002V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HDIRBLOCKAP002V.
+Start HFINBLOCKAP003V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HFINBLOCKAP003V.
+Start HHRMBLOCKAP002V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HHRMBLOCKAP002V.
+Start HICTAIAPWH001 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTAIAPWH001.
+Start HICTATRIUDB007 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTATRIUDB007.
+Start HICTATRIUDB008 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTATRIUDB008.
+Start HICTATRIUFP004 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTATRIUFP004.
+Start HICTATRIUWF900V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTATRIUWF900V.
+Start HICTBIAPWH001 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBIAPWH001.
+Start HICTBIAPWV004 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBIAPWV004.
+Start HICTBLOCKAP051V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKAP051V.
+Start HICTBLOCKDB006 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKDB006.
+Start HICTBLOCKDB007 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKDB007.
+Start HICTBLOCKDB008 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKDB008.
+Start HICTBLOCKFP004 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKFP004.
+Start HICTBLOCKTS001V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKTS001V.
+Start HICTBLOCKWF900V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKWF900V.
+Start HICTBLOCKWW002V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKWW002V.
+Start HICTBLOCKWW003V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HICTBLOCKWW003V.
+Start HPATATRIUWW001V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HPATATRIUWW001V.
+Start HSTAADAPWV001 :
+ERROR: The RPC server is unavailable.
+Stop HSTAADAPWV001.
+Start HSTAAIAPWV001 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HSTAAIAPWV001.
+Start HSTAATRIUAP001V :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HSTAATRIUAP001V.
+Start HSTABLOCKAP001 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop HSTABLOCKAP001.
+Start IBIS-SQL-DV-02 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop IBIS-SQL-DV-02.
+Start IDIRBLOCKAP005 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop IDIRBLOCKAP005.
+Start IICTCIAPWV152 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop IICTCIAPWV152.
+Start INF01ATRIUAP06 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUAP06.
+Start INF01ATRIUAP07 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUAP07.
+Start INF01ATRIUAP18 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUAP18.
+Start INF01ATRIUAP19 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUAP19.
+Start INF01ATRIUAP22 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUAP22.
+Start INF01ATRIUDB03 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUDB03.
+Start INF01ATRIUDB04 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUDB04.
+Start INF01ATRIUDB99 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUDB99.
+Start INF01ATRIUWF02 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01ATRIUWF02.
+Start INF01BLOCKWF02 :
+ERROR: Logon failure: unknown user name or bad password.
+Stop INF01BLOCKWF02.
+Start NAT01BLOCKAP03 :
+Stop NAT01BLOCKAP03.
+Start SYNTATRIUAP003 :
+Stop SYNTATRIUAP003.
+
+C:\Users\UUUUUU\dev\bat development>
