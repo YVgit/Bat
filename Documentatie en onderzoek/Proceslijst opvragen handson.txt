@@ -1,0 +1,1550 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\EXL252>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0         24 K
+System                           4 Services                   0      2.012 K
+smss.exe                       420 Services                   0      1.260 K
+csrss.exe                      624 Services                   0      7.220 K
+wininit.exe                    672 Services                   0      4.848 K
+csrss.exe                      688 Console                    1    139.900 K
+winlogon.exe                   728 Console                    1      8.436 K
+services.exe                   792 Services                   0     14.680 K
+lsass.exe                      800 Services                   0     21.492 K
+lsm.exe                        808 Services                   0      7.700 K
+svchost.exe                    908 Services                   0     12.344 K
+svchost.exe                   1016 Services                   0     12.756 K
+svchost.exe                    680 Services                   0     22.680 K
+svchost.exe                   1032 Services                   0     28.660 K
+svchost.exe                   1056 Services                   0     26.848 K
+svchost.exe                   1088 Services                   0     53.240 K
+svchost.exe                   1196 Services                   0     29.676 K
+igfxCUIService.exe            1288 Services                   0      9.108 K
+hpservice.exe                 1352 Services                   0      6.188 K
+svchost.exe                   1456 Services                   0     26.280 K
+spoolsv.exe                   1596 Services                   0     16.704 K
+svchost.exe                   1628 Services                   0     12.332 K
+svchost.exe                   1660 Services                   0     31.444 K
+CxUtilSvc.exe                 1784 Services                   0      6.488 K
+svchost.exe                   1856 Services                   0     11.884 K
+EPWD.exe                      1884 Services                   0      8.116 K
+HotkeyService.exe             1940 Services                   0     12.308 K
+ibtsiva.exe                   2040 Services                   0      6.008 K
+IpOverUsbSvc.exe              1476 Services                   0     12.660 K
+PE2.exe                       2084 Services                   0     34.908 K
+NTRTScan.exe                  2160 Services                   0      6.656 K
+SynTPEnhService.exe           2232 Services                   0      6.152 K
+TracSrvWrapper.exe            2324 Services                   0     62.152 K
+trc_base.exe                  2408 Services                   0     12.568 K
+TmListen.exe                  2456 Services                   0      6.016 K
+svchost.exe                   3068 Services                   0      5.172 K
+svchost.exe                   3080 Services                   0     43.132 K
+CNTAoSMgr.exe                 3464 Services                   0      6.120 K
+conhost.exe                   3484 Services                   0      3.076 K
+TmSSClient.exe                3576 Services                   0     19.688 K
+conhost.exe                   3588 Services                   0      3.092 K
+taskhost.exe                  3720 Console                    1     20.192 K
+SynTPEnh.exe                  3768 Console                    1     21.756 K
+taskeng.exe                   3776 Console                    1      7.364 K
+PresentationFontCache.exe     3832 Services                   0     27.420 K
+dwm.exe                       3864 Console                    1     62.580 K
+explorer.exe                  3932 Console                    1     97.736 K
+QLBController.exe             3944 Console                    1      5.728 K
+igfxEM.exe                    3492 Console                    1     13.236 K
+igfxHK.exe                    3572 Console                    1     10.080 K
+igfxTray.exe                  3568 Console                    1     11.008 K
+trc_gui.exe                   3652 Console                    1      9.460 K
+SynTPHelper.exe               4128 Console                    1      5.096 K
+RtsCM64.exe                   4232 Console                    1      8.752 K
+WmiPrvSE.exe                  4356 Services                   0     16.620 K
+ONENOTEM.EXE                  4392 Console                    1        700 K
+SmartAudio3.exe               4536 Console                    1     64.452 K
+QLBCTRL.exe                   4644 Console                    1     13.912 K
+communicator.exe              4700 Console                    1     46.416 K
+PccNTMon.exe                  4708 Console                    1      1.320 K
+TrGUI.exe                     4716 Console                    1     38.544 K
+VolCtrl.exe                   4820 Console                    1      7.056 K
+svchost.exe                   5476 Services                   0      6.600 K
+hpqWmiEx.exe                  5512 Services                   0      7.916 K
+hpqwmiex.exe                  5632 Services                   0     11.620 K
+SearchIndexer.exe             5712 Services                   0     53.344 K
+Com4QLBEx.exe                 5992 Services                   0      6.760 K
+unsecapp.exe                  6048 Console                    1      8.804 K
+OUTLOOK.EXE                   6212 Console                    1    213.976 K
+OSPPSVC.EXE                   6844 Services                   0     16.576 K
+TmCCSF.exe                    6440 Services                   0      8.424 K
+BESClient.exe                 3760 Services                   0     15.032 K
+UcMapi.exe                    4740 Console                    1     28.284 K
+BESClientUI.exe               5556 Console                    1      1.336 K
+RemoteDesktopManagerFree.     4856 Console                    1    173.156 K
+firefox.exe                   7380 Console                    1  1.266.548 K
+EXCEL.EXE                     8004 Console                    1     98.516 K
+audiodg.exe                   7968 Services                   0     37.096 K
+chrome.exe                    4388 Console                    1    133.568 K
+chrome.exe                    9088 Console                    1      7.448 K
+chrome.exe                    4100 Console                    1      7.940 K
+chrome.exe                    9044 Console                    1    104.460 K
+notepad++.exe                 2536 Console                    1     20.092 K
+OneDrive.exe                  8672 Console                    1      8.504 K
+chrome.exe                    9140 Console                    1     92.592 K
+TMBMSRV.exe                   6864 Services                   0     70.496 K
+TmPfw.exe                     7048 Services                   0     13.644 K
+putty.exe                     9864 Console                    1     15.456 K
+chrome.exe                   10288 Console                    1     61.968 K
+chrome.exe                    7692 Console                    1    104.604 K
+chrome.exe                    7716 Console                    1     64.520 K
+chrome.exe                    7548 Console                    1     28.644 K
+chrome.exe                   10224 Console                    1     62.296 K
+chrome.exe                    9616 Console                    1     30.012 K
+cmd.exe                       9116 Console                    1      3.596 K
+conhost.exe                   2928 Console                    1      8.864 K
+ONENOTE.EXE                   7888 Console                    1     13.824 K
+gitkraken.exe                10372 Console                    1        140 K
+taskhost.exe                 10712 Console                    1      6.368 K
+cmd.exe                       7828 Console                    1      3.576 K
+conhost.exe                   8484 Console                    1      8.656 K
+tasklist.exe                  9128 Console                    1      7.616 K
+WmiPrvSE.exe                  7460 Services                   0      8.744 K
+
+C:\Users\EXL252>services
+
+C:\Users\EXL252>services /?
+
+C:\Users\EXL252>help services
+This command is not supported by the help utility.  Try "services /?".
+
+C:\Users\EXL252>services help
+
+C:\Users\EXL252>sc
+DESCRIPTION:
+        SC is a command line program used for communicating with the
+        Service Control Manager and services.
+USAGE:
+        sc <server> [command] [service name] <option1> <option2>...
+
+
+        The option <server> has the form "\\ServerName"
+        Further help on commands can be obtained by typing: "sc [command]"
+        Commands:
+          query-----------Queries the status for a service, or
+                          enumerates the status for types of services.
+          queryex---------Queries the extended status for a service, or
+                          enumerates the status for types of services.
+          start-----------Starts a service.
+          pause-----------Sends a PAUSE control request to a service.
+          interrogate-----Sends an INTERROGATE control request to a service.
+          continue--------Sends a CONTINUE control request to a service.
+          stop------------Sends a STOP request to a service.
+          config----------Changes the configuration of a service (persistent).
+          description-----Changes the description of a service.
+          failure---------Changes the actions taken by a service upon failure.
+          failureflag-----Changes the failure actions flag of a service.
+          sidtype---------Changes the service SID type of a service.
+          privs-----------Changes the required privileges of a service.
+          qc--------------Queries the configuration information for a service.
+          qdescription----Queries the description for a service.
+          qfailure--------Queries the actions taken by a service upon failure.
+          qfailureflag----Queries the failure actions flag of a service.
+          qsidtype--------Queries the service SID type of a service.
+          qprivs----------Queries the required privileges of a service.
+          qtriggerinfo----Queries the trigger parameters of a service.
+          qpreferrednode--Queries the preferred NUMA node of a service.
+          delete----------Deletes a service (from the registry).
+          create----------Creates a service. (adds it to the registry).
+          control---------Sends a control to a service.
+          sdshow----------Displays a service's security descriptor.
+          sdset-----------Sets a service's security descriptor.
+          showsid---------Displays the service SID string corresponding to an arbitrary name.
+          triggerinfo-----Configures the trigger parameters of a service.
+          preferrednode---Sets the preferred NUMA node of a service.
+          GetDisplayName--Gets the DisplayName for a service.
+          GetKeyName------Gets the ServiceKeyName for a service.
+          EnumDepend------Enumerates Service Dependencies.
+
+        The following commands don't require a service name:
+        sc <server> <command> <option>
+          boot------------(ok | bad) Indicates whether the last boot should
+                          be saved as the last-known-good boot configuration
+          Lock------------Locks the Service Database
+          QueryLock-------Queries the LockStatus for the SCManager Database
+EXAMPLE:
+        sc start MyService
+
+Would you like to see help for the QUERY and QUERYEX commands? [ y | n ]:
+s
+
+C:\Users\EXL252>c query
+'c' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\EXL252>sc query
+
+SERVICE_NAME: AeLookupSvc
+DISPLAY_NAME: Application Experience
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Appinfo
+DISPLAY_NAME: Application Information
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: AudioEndpointBuilder
+DISPLAY_NAME: Windows Audio Endpoint Builder
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: AudioSrv
+DISPLAY_NAME: Windows Audio
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: BESClient
+DISPLAY_NAME: BES Client
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: BFE
+DISPLAY_NAME: Base Filtering Engine
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: BITS
+DISPLAY_NAME: Background Intelligent Transfer Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Browser
+DISPLAY_NAME: Computer Browser
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: bthserv
+DISPLAY_NAME: Bluetooth Support Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: CertPropSvc
+DISPLAY_NAME: Certificate Propagation
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Com4QLBEx
+DISPLAY_NAME: Com4QLBEx
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: CryptSvc
+DISPLAY_NAME: Cryptographic Services
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: CscService
+DISPLAY_NAME: Offline Files
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: CxUtilSvc
+DISPLAY_NAME: CxUtilSvc
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: DcomLaunch
+DISPLAY_NAME: DCOM Server Process Launcher
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Dhcp
+DISPLAY_NAME: DHCP Client
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: DiagTrack
+DISPLAY_NAME: Diagnostics Tracking Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Dnscache
+DISPLAY_NAME: DNS Client
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: dot3svc
+DISPLAY_NAME: Wired AutoConfig
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: DPS
+DISPLAY_NAME: Diagnostic Policy Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: EapHost
+DISPLAY_NAME: Extensible Authentication Protocol
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: EPWD
+DISPLAY_NAME: Check Point Endpoint Client Watchdog
+        TYPE               : 110  WIN32_OWN_PROCESS  (interactive)
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: eventlog
+DISPLAY_NAME: Windows Event Log
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: EventSystem
+DISPLAY_NAME: COM+ Event System
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: FDResPub
+DISPLAY_NAME: Function Discovery Resource Publication
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: FontCache
+DISPLAY_NAME: Windows Font Cache Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: FontCache3.0.0.0
+DISPLAY_NAME: Windows Presentation Foundation Font Cache 3.0.0.0
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: gpsvc
+DISPLAY_NAME: Group Policy Client
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: HP Hotkey Service
+DISPLAY_NAME: HP Hotkey Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: hpqcaslwmiex
+DISPLAY_NAME: HP CASL Framework Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: hpqwmiex
+DISPLAY_NAME: hpqwmiex
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: hpsrv
+DISPLAY_NAME: HP Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ibtsiva
+DISPLAY_NAME: ibtsiva
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: igfxCUIService2.0.0.0
+DISPLAY_NAME: Intel(R) HD Graphics Control Panel Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: IKEEXT
+DISPLAY_NAME: IKE and AuthIP IPsec Keying Modules
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: iphlpsvc
+DISPLAY_NAME: IP Helper
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: IpOverUsbSvc
+DISPLAY_NAME: Windows Phone IP over USB Transport (IpOverUsbSvc)
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: KeyIso
+DISPLAY_NAME: CNG Key Isolation
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: LanmanServer
+DISPLAY_NAME: Server
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: LanmanWorkstation
+DISPLAY_NAME: Workstation
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: lmhosts
+DISPLAY_NAME: TCP/IP NetBIOS Helper
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Microsoft Enforcer Policy
+DISPLAY_NAME: Microsoft Enforcer Policy
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: MMCSS
+DISPLAY_NAME: Multimedia Class Scheduler
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: MpsSvc
+DISPLAY_NAME: Windows Firewall
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Netlogon
+DISPLAY_NAME: Netlogon
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Netman
+DISPLAY_NAME: Network Connections
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: netprofm
+DISPLAY_NAME: Network List Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: NlaSvc
+DISPLAY_NAME: Network Location Awareness
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: nsi
+DISPLAY_NAME: Network Store Interface Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ntrtscan
+DISPLAY_NAME: OfficeScan NT RealTime Scan
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: osppsvc
+DISPLAY_NAME: Office Software Protection Platform
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: PcaSvc
+DISPLAY_NAME: Program Compatibility Assistant Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: PlugPlay
+DISPLAY_NAME: Plug and Play
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: PolicyAgent
+DISPLAY_NAME: IPsec Policy Agent
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Power
+DISPLAY_NAME: Power
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ProfSvc
+DISPLAY_NAME: User Profile Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ProtectedStorage
+DISPLAY_NAME: Protected Storage
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: RpcEptMapper
+DISPLAY_NAME: RPC Endpoint Mapper
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: RpcSs
+DISPLAY_NAME: Remote Procedure Call (RPC)
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SamSs
+DISPLAY_NAME: Security Accounts Manager
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SCardSvr
+DISPLAY_NAME: Smart Card
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Schedule
+DISPLAY_NAME: Task Scheduler
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SENS
+DISPLAY_NAME: System Event Notification Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SessionEnv
+DISPLAY_NAME: Remote Desktop Configuration
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ShellHWDetection
+DISPLAY_NAME: Shell Hardware Detection
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Spooler
+DISPLAY_NAME: Print Spooler
+        TYPE               : 110  WIN32_OWN_PROCESS  (interactive)
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SSDPSRV
+DISPLAY_NAME: SSDP Discovery
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SynTPEnhService
+DISPLAY_NAME: SynTPEnh Caller Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TermService
+DISPLAY_NAME: Remote Desktop Services
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Themes
+DISPLAY_NAME: Themes
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TMBMServer
+DISPLAY_NAME: Trend Micro Unauthorized Change Prevention Service
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: tmccsf
+DISPLAY_NAME: OfficeScan Common Client Solution Framework
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: tmlisten
+DISPLAY_NAME: OfficeScan NT Listener
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TmPfw
+DISPLAY_NAME: OfficeScan NT Firewall
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TracSrvWrapper
+DISPLAY_NAME: Check Point Endpoint Security VPN
+        TYPE               : 110  WIN32_OWN_PROCESS  (interactive)
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TRCTARGET
+DISPLAY_NAME: IBM BigFix Remote Control - Target
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TrkWks
+DISPLAY_NAME: Distributed Link Tracking Client
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TrustedInstaller
+DISPLAY_NAME: Windows Modules Installer
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: UmRdpService
+DISPLAY_NAME: Remote Desktop Services UserMode Port Redirector
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: UxSms
+DISPLAY_NAME: Desktop Window Manager Session Manager
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: VaultSvc
+DISPLAY_NAME: Credential Manager
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: W32Time
+DISPLAY_NAME: Windows Time
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: WdiServiceHost
+DISPLAY_NAME: Diagnostic Service Host
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: WinDefend
+DISPLAY_NAME: Windows Defender
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: WinHttpAutoProxySvc
+DISPLAY_NAME: WinHTTP Web Proxy Auto-Discovery Service
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Winmgmt
+DISPLAY_NAME: Windows Management Instrumentation
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: WinRM
+DISPLAY_NAME: Windows Remote Management (WS-Management)
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Wlansvc
+DISPLAY_NAME: WLAN AutoConfig
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wscsvc
+DISPLAY_NAME: Security Center
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: WSearch
+DISPLAY_NAME: Windows Search
+        TYPE               : 10  WIN32_OWN_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wuauserv
+DISPLAY_NAME: Windows Update
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wudfsvc
+DISPLAY_NAME: Windows Driver Foundation - User-mode Driver Framework
+        TYPE               : 20  WIN32_SHARE_PROCESS
+        STATE              : 4  RUNNING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+C:\Users\EXL252>
+
+
+Windows PowerShell
+Copyright (C) 2015 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\EXL252> tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0         24 K
+System                           4 Services                   0      2.012 K
+smss.exe                       420 Services                   0      1.260 K
+csrss.exe                      624 Services                   0      7.228 K
+wininit.exe                    672 Services                   0      4.848 K
+csrss.exe                      688 Console                    1    143.064 K
+winlogon.exe                   728 Console                    1      8.436 K
+services.exe                   792 Services                   0     14.688 K
+lsass.exe                      800 Services                   0     21.476 K
+lsm.exe                        808 Services                   0      7.684 K
+svchost.exe                    908 Services                   0     12.300 K
+svchost.exe                   1016 Services                   0     12.748 K
+svchost.exe                    680 Services                   0     22.700 K
+svchost.exe                   1032 Services                   0     28.648 K
+svchost.exe                   1056 Services                   0     26.844 K
+svchost.exe                   1088 Services                   0     53.364 K
+svchost.exe                   1196 Services                   0     29.676 K
+igfxCUIService.exe            1288 Services                   0      9.144 K
+hpservice.exe                 1352 Services                   0      6.208 K
+svchost.exe                   1456 Services                   0     26.352 K
+spoolsv.exe                   1596 Services                   0     16.720 K
+svchost.exe                   1628 Services                   0     12.312 K
+svchost.exe                   1660 Services                   0     31.476 K
+CxUtilSvc.exe                 1784 Services                   0      6.488 K
+svchost.exe                   1856 Services                   0     11.900 K
+EPWD.exe                      1884 Services                   0      8.144 K
+HotkeyService.exe             1940 Services                   0     12.308 K
+ibtsiva.exe                   2040 Services                   0      6.028 K
+IpOverUsbSvc.exe              1476 Services                   0     12.660 K
+PE2.exe                       2084 Services                   0     34.908 K
+NTRTScan.exe                  2160 Services                   0     14.664 K
+SynTPEnhService.exe           2232 Services                   0      6.152 K
+TracSrvWrapper.exe            2324 Services                   0     62.504 K
+trc_base.exe                  2408 Services                   0     12.608 K
+TmListen.exe                  2456 Services                   0     14.436 K
+svchost.exe                   3068 Services                   0      5.172 K
+svchost.exe                   3080 Services                   0     43.876 K
+CNTAoSMgr.exe                 3464 Services                   0      6.120 K
+conhost.exe                   3484 Services                   0      3.076 K
+TmSSClient.exe                3576 Services                   0     19.688 K
+conhost.exe                   3588 Services                   0      3.092 K
+taskhost.exe                  3720 Console                    1     20.220 K
+SynTPEnh.exe                  3768 Console                    1     21.756 K
+taskeng.exe                   3776 Console                    1      7.364 K
+PresentationFontCache.exe     3832 Services                   0     27.420 K
+dwm.exe                       3864 Console                    1     62.792 K
+explorer.exe                  3932 Console                    1    102.132 K
+QLBController.exe             3944 Console                    1      5.728 K
+igfxEM.exe                    3492 Console                    1     13.236 K
+igfxHK.exe                    3572 Console                    1     10.080 K
+igfxTray.exe                  3568 Console                    1     11.008 K
+trc_gui.exe                   3652 Console                    1      9.460 K
+SynTPHelper.exe               4128 Console                    1      5.096 K
+RtsCM64.exe                   4232 Console                    1      8.752 K
+WmiPrvSE.exe                  4356 Services                   0     16.620 K
+ONENOTEM.EXE                  4392 Console                    1        704 K
+SmartAudio3.exe               4536 Console                    1     64.456 K
+QLBCTRL.exe                   4644 Console                    1     13.912 K
+communicator.exe              4700 Console                    1     46.336 K
+PccNTMon.exe                  4708 Console                    1      5.440 K
+TrGUI.exe                     4716 Console                    1     38.544 K
+VolCtrl.exe                   4820 Console                    1      7.056 K
+svchost.exe                   5476 Services                   0      6.600 K
+hpqWmiEx.exe                  5512 Services                   0      7.916 K
+hpqwmiex.exe                  5632 Services                   0     11.648 K
+SearchIndexer.exe             5712 Services                   0     50.716 K
+Com4QLBEx.exe                 5992 Services                   0      6.760 K
+unsecapp.exe                  6048 Console                    1      8.804 K
+OUTLOOK.EXE                   6212 Console                    1    219.732 K
+OSPPSVC.EXE                   6844 Services                   0     16.576 K
+TmCCSF.exe                    6440 Services                   0     15.368 K
+BESClient.exe                 3760 Services                   0     27.200 K
+UcMapi.exe                    4740 Console                    1     28.264 K
+BESClientUI.exe               5556 Console                    1      1.624 K
+RemoteDesktopManagerFree.     4856 Console                    1    173.156 K
+firefox.exe                   7380 Console                    1  1.298.888 K
+EXCEL.EXE                     8004 Console                    1     98.428 K
+audiodg.exe                   7968 Services                   0     37.112 K
+chrome.exe                    4388 Console                    1    133.560 K
+chrome.exe                    9088 Console                    1      7.448 K
+chrome.exe                    4100 Console                    1      7.940 K
+chrome.exe                    9044 Console                    1    104.460 K
+notepad++.exe                 2536 Console                    1     20.272 K
+OneDrive.exe                  8672 Console                    1      8.500 K
+chrome.exe                    9140 Console                    1     92.752 K
+TMBMSRV.exe                   6864 Services                   0     70.504 K
+TmPfw.exe                     7048 Services                   0     13.624 K
+putty.exe                     9864 Console                    1     15.456 K
+chrome.exe                   10288 Console                    1     61.964 K
+chrome.exe                    7692 Console                    1    100.684 K
+chrome.exe                    7716 Console                    1     64.456 K
+chrome.exe                    7548 Console                    1     28.644 K
+chrome.exe                   10224 Console                    1     62.296 K
+chrome.exe                    9616 Console                    1     30.012 K
+cmd.exe                       9116 Console                    1      3.596 K
+conhost.exe                   2928 Console                    1      8.864 K
+ONENOTE.EXE                   7888 Console                    1     15.260 K
+gitkraken.exe                10372 Console                    1        140 K
+taskhost.exe                 10712 Console                    1      6.376 K
+cmd.exe                       7828 Console                    1      3.608 K
+conhost.exe                   8484 Console                    1      8.884 K
+SearchProtocolHost.exe       10040 Console                    1      8.268 K
+SearchProtocolHost.exe        1264 Services                   0      5.772 K
+SearchFilterHost.exe          8692 Services                   0      5.736 K
+powershell.exe               10676 Console                    1     53.084 K
+conhost.exe                   3240 Console                    1      6.704 K
+tasklist.exe                 11152 Console                    1      7.568 K
+WmiPrvSE.exe                  9348 Services                   0      8.744 K
+PS C:\Users\EXL252> getprocess
+getprocess : The term 'getprocess' is not recognized as the name of a cmdlet, function, script file, or operable progra
+m. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ getprocess
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (getprocess:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\EXL252> get-process
+
+Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id  SI ProcessName
+-------  ------    -----      ----- -----   ------     --  -- -----------
+    267      16    34880      37112   110   154,72   7968   0 audiodg
+    299      29    55212      27200   156            3760   0 BESClient
+    279      23    12980       1624   196     1,59   5556   1 BESClientUI
+     83      12     3528       7940    74     0,22   4100   1 chrome
+   1551      78    77048     133592   440   450,91   4388   1 chrome
+    218      27    24592      28644   202     5,88   7548   1 chrome
+    348      44    85116     100752   351   114,21   7692   1 chrome
+    246      34    53736      64484   267    48,88   7716   1 chrome
+    318      33   104548     104460   344   101,56   9044   1 chrome
+    126      13     3504       7448    77     0,42   9088   1 chrome
+    374      39    69048      92752   507    97,86   9140   1 chrome
+    169      23    28132      30012   175    23,18   9616   1 chrome
+    246      31    41100      62296   251    50,79  10224   1 chrome
+    247      33    49428      61960   259    46,04  10288   1 chrome
+     24       5     2288       3608    47     0,11   7828   1 cmd
+     24       5     2288       3596    47     0,12   9116   1 cmd
+    103      13     3848       6120    53            3464   0 CNTAoSMgr
+    110      11     2592       6760    49            5992   0 Com4QLBEx
+   1223      71    90136      46372   437    67,86   4700   1 communicator
+     53       7     4640       8864    62     0,75   2928   1 conhost
+     54       7     2632       6720    61     0,17   3240   1 conhost
+     31       4     1084       3076    25            3484   0 conhost
+     31       4     1104       3092    25            3588   0 conhost
+     53       7     4640       8884    62     0,61   8484   1 conhost
+   1252      15     4736       7228    62             624   0 csrss
+   1145      31    22432     143056   312             688   1 csrss
+    110      11     2608       6488    60            1784   0 CxUtilSvc
+    157      20    32500      62792   266 1.112,40   3864   1 dwm
+    195      17     3716       8144    72            1884   0 EPWD
+    730      93    63636      98464   434   117,87   8004   1 EXCEL
+   1251      93    93156     101636   395   765,59   3932   1 explorer
+   1430     243  1203172    1301084  3347 5.573,81   7380   1 firefox
+      1       1     1780        140    81     0,00  10372   1 gitkraken
+    154      14     4760      12308    81            1940   0 HotkeyService
+    135      13     3252       7916    60            5512   0 hpqWmiEx
+    217      16     6400      11648    82            5632   0 hpqwmiex
+     93      10     2404       6208    48            1352   0 hpservice
+     98       9     2472       6028    45            2040   0 ibtsiva
+      0       0        0         24     0               0   0 Idle
+    149      12     3232       9144    56            1288   0 igfxCUIService
+    142      14     5232      13236   108     0,84   3492   1 igfxEM
+    108      11     3892      10080    84     0,34   3572   1 igfxHK
+    122      13     4752      11008    93     1,56   3568   1 igfxTray
+    208      19    10024      12660   139            1476   0 IpOverUsbSvc
+   1236      32    11284      21480    58             800   0 lsass
+    261      11     4600       7684    35             808   0 lsm
+    133      17    10132      20272   133    15,88   2536   1 notepad++
+   1128      64    90860      10336   316            2160   0 NTRTScan
+    629      48    77036       8500   295 1.300,42   8672   1 OneDrive
+    967      55    19944      15260   277    36,11   7888   1 ONENOTE
+     67       9     2404        704    73     0,23   4392   1 ONENOTEM
+    174      11     7192      16576    57            6844   0 OSPPSVC
+   4311     158   120936     219688   772   298,84   6212   1 OUTLOOK
+    313      34    20448       5020   170    18,84   4708   1 PccNTMon
+    295      35    33380      34908   530            2084   0 PE2
+    356      29    73392      77692   629     2,11  10676   1 powershell
+    169      26    33268      27420   522            3832   0 PresentationFontCache
+    171      16     5728      15456   123     4,13   9864   1 putty
+    142      13     4020       5728   100     1,09   3944   1 QLBController
+    252      18     4516      13912   129     0,48   4644   1 QLBCTRL
+   1125      86   315968     173192  1084    36,05   4856   1 RemoteDesktopManagerFree
+    120      11     3348       8752    81     0,59   4232   1 RtsCM64
+     90       8     2264       5736    32            8692   0 SearchFilterHost
+   1211      68    58156      50716   264            5712   0 SearchIndexer
+    238       8     2268       5772    32            1264   0 SearchProtocolHost
+    252       9     3588       8268    69     0,08  10040   1 SearchProtocolHost
+    331      16     9736      14688    60             792   0 services
+    704      44    64236      64452   793     4,82   4536   1 SmartAudio3
+     32       1      544       1260     4             420   0 smss
+    398      24     9208      16720    85            1596   0 spoolsv
+    583      25    18928      22716   103             680   0 svchost
+    437      16     5732      12300    72             908   0 svchost
+    469      17     8164      12740    61            1016   0 svchost
+    856      30    17228      28648   122            1032   0 svchost
+    487      34    12460      26844   110            1056   0 svchost
+   1638      61    34072      53332   410            1088   0 svchost
+    259      20    21800      29676   127            1196   0 svchost
+    863      46    20308      26412   179            1456   0 svchost
+    309      25     7672      12312    60            1628   0 svchost
+    377      34    28680      31472   127            1660   0 svchost
+    323      19     6188      11900    79            1856   0 svchost
+     97       8     1872       5172    47            3068   0 svchost
+    409      50    61868      43880   260            3080   0 svchost
+    105      13     2824       6600    31            5476   0 svchost
+    569      16    12860      21756   126    75,07   3768   1 SynTPEnh
+    224       9     2428       6152    43            2232   0 SynTPEnhService
+     42       7     2176       5096    49     0,30   4128   1 SynTPHelper
+    842       0      140       2012     6               4   0 System
+    103       9     2596       7364    64     0,03   3776   1 taskeng
+    294      29    14956      20224   437    32,03   3720   1 taskhost
+     96       9     3968       6376    70     0,05  10712   1 taskhost
+   1815      34    57236      70520   198            6864   0 TMBMSRV
+   1364      61   157992       7144  1475            6440   0 TmCCSF
+    972      73    66844      11908   475            2456   0 TmListen
+    223      20     6572      13624    80            7048   0 TmPfw
+    241      20    11376      19688    86            3576   0 TmSSClient
+   5833      40    53216      62532   190            2324   0 TracSrvWrapper
+    155      20     5852      12580    78            2408   0 trc_base
+    114      13     3576       9460    95     3,74   3652   1 trc_gui
+    377      24    27776      38544   182    23,52   4716   1 TrGUI
+    717      33    13180      28264   254   105,18   4740   1 UcMapi
+     98       9     2792       8804    61     0,36   6048   1 unsecapp
+    113      11     7012       7056    85     0,17   4820   1 VolCtrl
+     83      10     1716       4848    44             672   0 wininit
+    134      10     3552       8436    57             728   1 winlogon
+    138       9    11412      16620    56            4356   0 WmiPrvSE
+    144      12     4832       9668    47            9348   0 WmiPrvSE
+
+
+PS C:\Users\EXL252> help get-process
+
+NAME
+    Get-Process
+
+SYNTAX
+    Get-Process [[-Name] <string[]>] [-ComputerName <string[]>] [-Module] [-FileVersionInfo]  [<CommonParameters>]
+
+    Get-Process [[-Name] <string[]>] -IncludeUserName  [<CommonParameters>]
+
+    Get-Process -Id <int[]> -IncludeUserName  [<CommonParameters>]
+
+    Get-Process -Id <int[]> [-ComputerName <string[]>] [-Module] [-FileVersionInfo]  [<CommonParameters>]
+
+    Get-Process -InputObject <Process[]> -IncludeUserName  [<CommonParameters>]
+
+    Get-Process -InputObject <Process[]> [-ComputerName <string[]>] [-Module] [-FileVersionInfo]  [<CommonParameters>]
+
+
+ALIASES
+    gps
+    ps
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Process -Online" or
+           go to http://go.microsoft.com/fwlink/?LinkID=113324.
+
+
+
+
+PS C:\Users\EXL252> get-process |get-member
+
+
+   TypeName: System.Diagnostics.Process
+
+Name                       MemberType     Definition
+----                       ----------     ----------
+Handles                    AliasProperty  Handles = Handlecount
+Name                       AliasProperty  Name = ProcessName
+NPM                        AliasProperty  NPM = NonpagedSystemMemorySize64
+PM                         AliasProperty  PM = PagedMemorySize64
+SI                         AliasProperty  SI = SessionId
+VM                         AliasProperty  VM = VirtualMemorySize64
+WS                         AliasProperty  WS = WorkingSet64
+Disposed                   Event          System.EventHandler Disposed(System.Object, System.EventArgs)
+ErrorDataReceived          Event          System.Diagnostics.DataReceivedEventHandler ErrorDataReceived(System.Objec...
+Exited                     Event          System.EventHandler Exited(System.Object, System.EventArgs)
+OutputDataReceived         Event          System.Diagnostics.DataReceivedEventHandler OutputDataReceived(System.Obje...
+BeginErrorReadLine         Method         void BeginErrorReadLine()
+BeginOutputReadLine        Method         void BeginOutputReadLine()
+CancelErrorRead            Method         void CancelErrorRead()
+CancelOutputRead           Method         void CancelOutputRead()
+Close                      Method         void Close()
+CloseMainWindow            Method         bool CloseMainWindow()
+CreateObjRef               Method         System.Runtime.Remoting.ObjRef CreateObjRef(type requestedType)
+Dispose                    Method         void Dispose(), void IDisposable.Dispose()
+Equals                     Method         bool Equals(System.Object obj)
+GetHashCode                Method         int GetHashCode()
+GetLifetimeService         Method         System.Object GetLifetimeService()
+GetType                    Method         type GetType()
+InitializeLifetimeService  Method         System.Object InitializeLifetimeService()
+Kill                       Method         void Kill()
+Refresh                    Method         void Refresh()
+Start                      Method         bool Start()
+ToString                   Method         string ToString()
+WaitForExit                Method         bool WaitForExit(int milliseconds), void WaitForExit()
+WaitForInputIdle           Method         bool WaitForInputIdle(int milliseconds), bool WaitForInputIdle()
+__NounName                 NoteProperty   string __NounName=Process
+BasePriority               Property       int BasePriority {get;}
+Container                  Property       System.ComponentModel.IContainer Container {get;}
+EnableRaisingEvents        Property       bool EnableRaisingEvents {get;set;}
+ExitCode                   Property       int ExitCode {get;}
+ExitTime                   Property       datetime ExitTime {get;}
+Handle                     Property       System.IntPtr Handle {get;}
+HandleCount                Property       int HandleCount {get;}
+HasExited                  Property       bool HasExited {get;}
+Id                         Property       int Id {get;}
+MachineName                Property       string MachineName {get;}
+MainModule                 Property       System.Diagnostics.ProcessModule MainModule {get;}
+MainWindowHandle           Property       System.IntPtr MainWindowHandle {get;}
+MainWindowTitle            Property       string MainWindowTitle {get;}
+MaxWorkingSet              Property       System.IntPtr MaxWorkingSet {get;set;}
+MinWorkingSet              Property       System.IntPtr MinWorkingSet {get;set;}
+Modules                    Property       System.Diagnostics.ProcessModuleCollection Modules {get;}
+NonpagedSystemMemorySize   Property       int NonpagedSystemMemorySize {get;}
+NonpagedSystemMemorySize64 Property       long NonpagedSystemMemorySize64 {get;}
+PagedMemorySize            Property       int PagedMemorySize {get;}
+PagedMemorySize64          Property       long PagedMemorySize64 {get;}
+PagedSystemMemorySize      Property       int PagedSystemMemorySize {get;}
+PagedSystemMemorySize64    Property       long PagedSystemMemorySize64 {get;}
+PeakPagedMemorySize        Property       int PeakPagedMemorySize {get;}
+PeakPagedMemorySize64      Property       long PeakPagedMemorySize64 {get;}
+PeakVirtualMemorySize      Property       int PeakVirtualMemorySize {get;}
+PeakVirtualMemorySize64    Property       long PeakVirtualMemorySize64 {get;}
+PeakWorkingSet             Property       int PeakWorkingSet {get;}
+PeakWorkingSet64           Property       long PeakWorkingSet64 {get;}
+PriorityBoostEnabled       Property       bool PriorityBoostEnabled {get;set;}
+PriorityClass              Property       System.Diagnostics.ProcessPriorityClass PriorityClass {get;set;}
+PrivateMemorySize          Property       int PrivateMemorySize {get;}
+PrivateMemorySize64        Property       long PrivateMemorySize64 {get;}
+PrivilegedProcessorTime    Property       timespan PrivilegedProcessorTime {get;}
+ProcessName                Property       string ProcessName {get;}
+ProcessorAffinity          Property       System.IntPtr ProcessorAffinity {get;set;}
+Responding                 Property       bool Responding {get;}
+SafeHandle                 Property       Microsoft.Win32.SafeHandles.SafeProcessHandle SafeHandle {get;}
+SessionId                  Property       int SessionId {get;}
+Site                       Property       System.ComponentModel.ISite Site {get;set;}
+StandardError              Property       System.IO.StreamReader StandardError {get;}
+StandardInput              Property       System.IO.StreamWriter StandardInput {get;}
+StandardOutput             Property       System.IO.StreamReader StandardOutput {get;}
+StartInfo                  Property       System.Diagnostics.ProcessStartInfo StartInfo {get;set;}
+StartTime                  Property       datetime StartTime {get;}
+SynchronizingObject        Property       System.ComponentModel.ISynchronizeInvoke SynchronizingObject {get;set;}
+Threads                    Property       System.Diagnostics.ProcessThreadCollection Threads {get;}
+TotalProcessorTime         Property       timespan TotalProcessorTime {get;}
+UserProcessorTime          Property       timespan UserProcessorTime {get;}
+VirtualMemorySize          Property       int VirtualMemorySize {get;}
+VirtualMemorySize64        Property       long VirtualMemorySize64 {get;}
+WorkingSet                 Property       int WorkingSet {get;}
+WorkingSet64               Property       long WorkingSet64 {get;}
+PSConfiguration            PropertySet    PSConfiguration {Name, Id, PriorityClass, FileVersion}
+PSResources                PropertySet    PSResources {Name, Id, Handlecount, WorkingSet, NonPagedMemorySize, PagedM...
+Company                    ScriptProperty System.Object Company {get=$this.Mainmodule.FileVersionInfo.CompanyName;}
+CPU                        ScriptProperty System.Object CPU {get=$this.TotalProcessorTime.TotalSeconds;}
+Description                ScriptProperty System.Object Description {get=$this.Mainmodule.FileVersionInfo.FileDescri...
+FileVersion                ScriptProperty System.Object FileVersion {get=$this.Mainmodule.FileVersionInfo.FileVersion;}
+Path                       ScriptProperty System.Object Path {get=$this.Mainmodule.FileName;}
+Product                    ScriptProperty System.Object Product {get=$this.Mainmodule.FileVersionInfo.ProductName;}
+ProductVersion             ScriptProperty System.Object ProductVersion {get=$this.Mainmodule.FileVersionInfo.Product...
+
+
+PS C:\Users\EXL252> tasklist /?
+
+TASKLIST [/S system [/U username [/P [password]]]]
+         [/M [module] | /SVC | /V] [/FI filter] [/FO format] [/NH]
+
+Description:
+    This tool displays a list of currently running processes on
+    either a local or remote machine.
+
+Parameter List:
+   /S     system           Specifies the remote system to connect to.
+
+   /U     [domain\]user    Specifies the user context under which
+                           the command should execute.
+
+   /P     [password]       Specifies the password for the given
+                           user context. Prompts for input if omitted.
+
+   /M     [module]         Lists all tasks currently using the given
+                           exe/dll name. If the module name is not
+                           specified all loaded modules are displayed.
+
+   /SVC                    Displays services hosted in each process.
+
+   /V                      Displays verbose task information.
+
+   /FI    filter           Displays a set of tasks that match a
+                           given criteria specified by the filter.
+
+   /FO    format           Specifies the output format.
+                           Valid values: "TABLE", "LIST", "CSV".
+
+   /NH                     Specifies that the "Column Header" should
+                           not be displayed in the output.
+                           Valid only for "TABLE" and "CSV" formats.
+
+   /?                      Displays this help message.
+
+Filters:
+    Filter Name     Valid Operators           Valid Value(s)
+    -----------     ---------------           --------------------------
+    STATUS          eq, ne                    RUNNING |
+                                              NOT RESPONDING | UNKNOWN
+    IMAGENAME       eq, ne                    Image name
+    PID             eq, ne, gt, lt, ge, le    PID value
+    SESSION         eq, ne, gt, lt, ge, le    Session number
+    SESSIONNAME     eq, ne                    Session name
+    CPUTIME         eq, ne, gt, lt, ge, le    CPU time in the format
+                                              of hh:mm:ss.
+                                              hh - hours,
+                                              mm - minutes, ss - seconds
+    MEMUSAGE        eq, ne, gt, lt, ge, le    Memory usage in KB
+    USERNAME        eq, ne                    User name in [domain\]user
+                                              format
+    SERVICES        eq, ne                    Service name
+    WINDOWTITLE     eq, ne                    Window title
+    MODULES         eq, ne                    DLL name
+
+NOTE: "WINDOWTITLE" and "STATUS" filters are not supported when querying
+      a remote machine.
+
+Examples:
+    TASKLIST
+    TASKLIST /M
+    TASKLIST /V /FO CSV
+    TASKLIST /SVC /FO LIST
+    TASKLIST /M wbem*
+    TASKLIST /S system /FO LIST
+    TASKLIST /S system /U domain\username /FO CSV /NH
+    TASKLIST /S system /U username /P password /FO TABLE /NH
+    TASKLIST /FI "USERNAME ne NT AUTHORITY\SYSTEM" /FI "STATUS eq running"
+PS C:\Users\EXL252>
